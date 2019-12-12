@@ -14,11 +14,11 @@ const Navbar = () =>
     <NavLink to="/" exact style={link} activeStyle={{background: 'darkblue'}}>Home</NavLink>
     <NavLink to="/about" exact style={link} activeStyle={{background: 'darkblue'}}>About</NavLink>
     <NavLink to="/login" exact style={link} activeStyle={{background: 'darkblue'}}>Login</NavLink>
-  </div>; 
+  </div>;
 const Home = () => <h1>Home!</h1>;
- 
+
 const About = () => <h1>This is my about component!</h1>;
- 
+
 const Login = () =>
   <form>
     <h1>Login</h1>
@@ -32,7 +32,7 @@ const Login = () =>
     </div>
     <input type="submit" value="Login" />
   </form>;
- 
+
 ReactDOM.render((
   <Router>
     <divt>

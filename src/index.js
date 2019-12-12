@@ -12,24 +12,9 @@ const link = {
 const Navbar = () =>
   <div>
     <NavLink to="/" exact style={link} activeStyle={{background: 'darkblue'}}>Home</NavLink>
-    <NavLink
-      to="/about"
-      exact
-      style={link}
-      activeStyle={{
-        background: 'darkblue'
-      }}
-    >About</NavLink>
-    <NavLink
-      to="/login"
-      exact
-      style={link}
-      activeStyle={{
-        background: 'darkblue'
-      }}
-    >Login</NavLink>
-  </div>;
- 
+    <NavLink to="/about" exact style={link} activeStyle={{background: 'darkblue'}}>About</NavLink>
+    <NavLink to="/login" exact style={link} activeStyle={{background: 'darkblue'}}>Login</NavLink>
+  </div>; 
 const Home = () => <h1>Home!</h1>;
  
 const About = () => <h1>This is my about component!</h1>;
